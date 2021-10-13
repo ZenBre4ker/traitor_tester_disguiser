@@ -79,7 +79,7 @@ if CLIENT then
 	end)
 
 	function ITEM:Bought()
-		chat.AddText("Role-Check Disguiser: ", COLOR_WHITE, "Toggle Disguise with the key: ", COLOR_RED, tostring(input.GetKeyName(bind.Find("ttt2_role_check_toggle"))))
+		chat.AddText("Role-Check Disguiser: ", COLOR_WHITE, "Toggle Disguise with the key: ", COLOR_RED, tostring(input.GetKeyName(bind.Find("ttt2_role_check_disguiser_toggle"))))
 	end
 
 else
